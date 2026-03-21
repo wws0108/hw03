@@ -1,0 +1,14 @@
+# 核心人脸检测库（指定稳定版本）
+face-recognition==1.3.0
+# Web交互框架（与当前环境兼容的版本）
+streamlit==1.50.0
+# Windows预编译版dlib（避免源码编译失败）
+dlib-bin==19.24.6
+# 图像处理基础库（版本兼容）
+numpy>=1.21.0,<1.26.0
+Pillow>=8.0.0,<11.4.0
+# Streamlit依赖补充（避免运行时报错）
+altair<6.0.0
+packaging<26.0
+blinker>=1.0.0
+click>=7.0
